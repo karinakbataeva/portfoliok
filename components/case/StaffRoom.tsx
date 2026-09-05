@@ -30,8 +30,8 @@ export default function StaffRoom() {
 
         <Shot
           src={profiles}
-          alt="The Staff Room reader and teacher profile wireframes"
-          caption="Reader and teacher profiles after the redesign — two paths through one platform."
+          alt="The Staff Room casual browser and teacher profile wireframes"
+          caption="Casual browser and teacher profiles after the redesign — two paths through one platform."
         />
 
         <div className="mt-20 space-y-16 md:space-y-20">
@@ -74,7 +74,7 @@ export default function StaffRoom() {
           >
             <p className="text-muted">
               I helped design and ship a view-only browsing experience to
-              production, decoupling browsing from contribution. Readers can now
+              production, decoupling browsing from contribution. Casual browsers can now
               explore schools and reviews without submitting anything — so the
               reviews that do arrive come from people with a genuine experience
               to share.
@@ -88,7 +88,7 @@ export default function StaffRoom() {
           >
             <p className="text-muted">
               With the trust fix in place, the redesign gave each user a clearer
-              path. The Reader, Teacher/Contributor, and Ambassador experiences
+              path. The Casual browser, Teacher/Contributor, and Ambassador experiences
               are downstream of decoupling access from contribution — not the
               headline themselves.
             </p>
@@ -98,7 +98,7 @@ export default function StaffRoom() {
             items={[
               {
                 index: "01",
-                title: "Reader profile",
+                title: "Casual browser profile",
                 body: "For people who want to explore. Search schools, browse reviews, and learn from existing community knowledge without being forced to contribute.",
               },
               {
@@ -116,19 +116,19 @@ export default function StaffRoom() {
 
           <Block
             num="04"
-            label="Reader profile"
+            label="Casual browser profile"
             title="Discovery without forced contribution."
           >
             <p className="text-muted">
-              The Reader Profile separates browsing from reviewing so people can
+              The Casual browser profile separates browsing from reviewing so people can
               make more informed decisions using existing community knowledge.
             </p>
           </Block>
 
           <Shot
             src={reader}
-            alt="The Staff Room reader, guest hub, and school profile wireframes"
-            caption="Reader, guest hub, and school profile — designed for discovery without forced contribution."
+            alt="The Staff Room casual browser, guest hub, and school profile wireframes"
+            caption="Casual browser, guest hub, and school profile — designed for discovery without forced contribution."
           />
 
           <Block

@@ -10,9 +10,9 @@ const PROJECTS = [
     href: "/work/the-staff-room",
     title: "The Staff Room",
     blurb:
-      "Fixing a trust problem hidden inside an access flow, then redesigning how readers, contributors, and ambassadors participate.",
+      "Fixing a trust problem hidden inside an access flow, then redesigning how casual browsers, contributors, and ambassadors participate.",
     image: staffRoom,
-    alt: "The Staff Room reader and teacher profile wireframes",
+    alt: "The Staff Room casual browser and teacher profile wireframes",
   },
   {
     index: "02",
@@ -101,6 +101,49 @@ export default function SelectedWork() {
               </a>
             </li>
           ))}
+        </Reveal>
+
+        <Reveal>
+          <a
+            href="https://generated-surgeon-18b.notion.site/The-Staffroom-Product-Redesign-PRD-cb3e4bdb872e4e259138c592fbf09b2d?pvs=143"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group mt-6 flex flex-col overflow-hidden border border-border transition-colors duration-200 hover:border-foreground/30 md:mt-8"
+          >
+            <div className="overflow-hidden bg-card">
+              <Image
+                src={staffRoom}
+                alt="The Staff Room product redesign PRD preview"
+                sizes="100vw"
+                className="h-64 w-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.02] md:h-80"
+              />
+            </div>
+
+            <div className="flex flex-col gap-3 p-7 md:p-8">
+              <p className="text-sm text-muted">
+                Product & Engineering · Full PRD walkthrough
+              </p>
+              <h3 className="text-[clamp(1.5rem,2.5vw,2.25rem)] transition-colors duration-200 group-hover:text-accent">
+                The Staff Room — Product Redesign PRD
+              </h3>
+              <p className="max-w-2xl text-muted">
+                The full write-up behind the access-flow fix: the trust
+                problem, the trade-offs, and the redesigned Casual browser, Teacher,
+                and Ambassador experiences — documented end to end in Notion.
+              </p>
+
+              <span className="mt-4 inline-flex w-fit items-center gap-2.5 border border-border px-5 py-3 text-sm font-medium transition-colors duration-200 group-hover:border-accent group-hover:text-accent">
+                See the full build
+                <span
+                  aria-hidden="true"
+                  className="transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                >
+                  →
+                </span>
+                <span className="sr-only"> (opens in a new tab)</span>
+              </span>
+            </div>
+          </a>
         </Reveal>
       </div>
     </section>

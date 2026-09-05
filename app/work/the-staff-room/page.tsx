@@ -6,7 +6,7 @@ import StaffRoom from "@/components/case/StaffRoom";
 export const metadata: Metadata = {
   title: "The Staff Room — Karina Bataeva",
   description:
-    "Fixing a trust problem hidden inside an access flow, then redesigning how readers, contributors, and ambassadors participate.",
+    "Fixing a trust problem hidden inside an access flow, then redesigning how casual browsers, contributors, and ambassadors participate.",
 };
 
 export default function Page() {
